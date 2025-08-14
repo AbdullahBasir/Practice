@@ -31,7 +31,3 @@ def rock_paper(rock, paper, scissors):
             q = False
 
 rock_paper('r', 'p', 's')
-
-def game():
-    if __name__ == '__main__':
-        game()
