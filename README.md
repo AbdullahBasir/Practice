@@ -53,14 +53,6 @@ This is a two-player Rock, Paper, Scissors game implemented in Python. The game 
 - **Python Standard Library**: `getpass` module
   - Used for secure input handling to hide player choices during gameplay
 
-## Usage
-
-### Running the Game
-```bash
-cd Practice
-python def_r_p_s.py
-```
-
 ### Example Game Session
 ```
 Player 1's turn: input r for rock, p for paper and s for scissors: 
@@ -93,10 +85,6 @@ The game uses `getpass.getpass()` which:
 - Only accepts 'r', 'p', or 's' as valid inputs
 - Invalid inputs prompt an error message and allow retry
 - Input is automatically converted to lowercase for consistency
-
-## Known Issues
-- The `game()` function has a minor implementation issue in the `if __name__ == '__main__':` block
-- The main game function is called directly at module level
 
 ## Future Improvements
 - Add a menu system for game options
